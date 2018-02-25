@@ -1,0 +1,21 @@
+div, p {
+  background: #e74c3c;
+  height: 40px;
+  width: 150px;
+  /* display: inline; */
+  display: inline-block;
+  /* display: none; */
+
+}
+
+/* By default, width and height have no effect on inline elements.
+wdt/hth below wont change elements like span and a.
+We need to overwrite this with display */
+span, a {
+  background: #3498db;
+  height: 40px;
+  width: 150px;
+  display: inline-block;
+
+
+}
